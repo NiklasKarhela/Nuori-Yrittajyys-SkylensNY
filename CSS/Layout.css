@@ -1,0 +1,143 @@
+@font-face{
+    font-family: "Jura";
+    src: url(../Font/Jura-Regular.ttf) format("truetype");
+}
+
+.everything{
+    height: fit-content;
+    width: 1100px;
+
+    margin: auto;
+    padding: 1em;
+
+}
+
+
+.navbar{
+    width: 100%;
+    height: fit-content;
+    float: left;
+}
+
+.product-text{
+    width: 100%;
+    height: fit-content;
+
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+    float: left;
+}
+
+.slider-frame{
+    width: 100%;
+    height: fit-content;
+    float: left;
+    margin-top: 0.5em;
+
+}
+
+.pricing{
+    width: 58%;
+    height: fit-content;
+    float: left;
+
+    margin-top: 3em;
+    margin-bottom: 1.6em;
+    margin-right: 0.5em;
+
+}
+
+.photoshoots{
+    width: 40.9%;
+    height: fit-content;
+
+    margin-top: 3em;
+    margin-bottom: 3em;
+    float: left;
+
+}
+
+.problems-solving{
+    width: 100%;
+    height: fit-content;
+    float: left;
+
+    margin-top: 4em;
+
+
+}
+
+.simple-order{
+    width: 49.45%;
+    height: fit-content;
+    float: left;
+
+    margin-top: 5em;
+    margin-right: 0.5em;
+}
+.order-form{
+    width: 35%;
+    height: fit-content;
+
+    margin-top: 2em;
+    margin-left: 7em;
+
+    float: left;
+
+}
+
+.social-container{
+    width: 100%;
+    height: fit-content;
+
+    margin-top: 4em;
+    float: left;
+}
+
+@media (max-width: 1900px){
+    .everything{
+        width: 850px;
+    }
+}
+@media (max-width: 920px){
+    .everything{
+        width: 700px;
+    }
+    .pricing{
+        width: 56%;
+    }
+    .photoshoots{
+        width: 40.5%;
+    }
+    .order-form{
+    
+        margin-top: 2em;
+        margin-left: 3em;
+    
+    }
+    .simple-order{
+        width: 45%;
+    
+        margin-top: 5em;
+        margin-right: 0;
+    }
+    
+}
+@media (max-width: 765px){
+    .everything{
+        width: 100%;
+    }
+    .order-form{
+    
+        margin-top: 2em;
+        margin-left: 20%;
+    
+    }
+    .simple-order{
+        width: 80%;
+    
+        margin-top: 5em;
+        margin-right: 10%;
+    }
+    
+}

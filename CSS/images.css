@@ -1,0 +1,116 @@
+.deer{
+    background-image: url(../IMAGES/deer2.JPG);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.masala{
+    background-image: url(../IMAGES/masala.JPG);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.porkkala{
+    background-image: url(../IMAGES/porkkala.JPG);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.tols{
+    background-image: url(../IMAGES/tols.JPG);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 1900px){
+    .deer{
+        background-image: url(../IMAGES/deer2-850.JPG);
+        height: 637px;
+        width: 850px;
+    }
+    
+    .masala{
+        background-image: url(../IMAGES/masala-850.JPG);
+        height: 637px;
+        width: 850px;
+    }
+    
+    .porkkala{
+        background-image: url(../IMAGES/porkkala-850.JPG);
+        height: 637px;
+        width: 850px;
+    }
+    
+    .tols{
+        background-image: url(../IMAGES/tols-850.JPG);
+        height: 637px;
+        width: 850px;
+    }
+}
+
+
+@media (max-width: 920px){
+    .deer{
+        background-image: url(../IMAGES/deer2-700.JPG);
+        height: 524px;
+        width: 700px;
+    }
+    
+    .masala{
+        background-image: url(../IMAGES/masala-700.JPG);
+        height: 524px;
+        width: 700px;
+    }
+    
+    .porkkala{
+        background-image: url(../IMAGES/porkkala-700.JPG);
+        height: 524px;
+        width: 700px;
+    }
+    
+    .tols{
+        background-image: url(../IMAGES/tols-700.JPG);
+        height: 524px;
+        width: 700px;
+    }
+}
+
+
+
+@media (max-width: 650px){
+    .deer{
+        background-image: url(../IMAGES/deer2-400.JPG);
+        height: 300px;
+        width: 400px;
+    }
+    
+    .masala{
+        background-image: url(../IMAGES/masala-400.JPG);
+        height: 300px;
+        width: 400px;
+    }
+    
+    .porkkala{
+        background-image: url(../IMAGES/porkkala-400.JPG);
+        height: 300px;
+        width: 400px;
+    }
+    
+    .tols{
+        background-image: url(../IMAGES/tols-400.JPG);
+        height: 300px;
+        width: 400px;
+    }
+}

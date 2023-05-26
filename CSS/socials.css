@@ -1,0 +1,29 @@
+.a-tag1{
+
+    margin-bottom: 1em;
+    font-family: "Jura", sans-serif;
+}
+#bold, #Price{
+    font-weight:bold;
+}
+
+.socials{
+    margin-bottom: 2em;
+    float: left;
+}
+
+
+#Socials, #privacy{
+    color: black;
+    text-decoration: none;
+}
+#Socials:hover,#privacy:hover{
+    text-shadow: 0.4px 0.4px #000000;
+}
+
+
+/*Privacy*/
+
+#protection{
+    float: right;
+}

@@ -1,0 +1,54 @@
+.p-tag1, .p-tag4{
+    font-family: "Jura", sans-serif;
+    font-size: 20px;
+
+    text-align: justify;
+}
+#top{
+    margin-top: 1em;
+}
+.p-tag, .li-tag{
+    font-family: "Jura", sans-serif;
+    font-size: 16px;
+    margin: 1px;
+} 
+span{
+    color: black;
+}
+#Price{
+    color: #4cbb17;
+}
+
+
+#openMap{
+    text-decoration: underline;
+    color: rgb(0, 78, 222);
+}
+#openMap:hover{
+    cursor: pointer;
+    color: rgb(41, 148, 255);
+}
+
+#mapRadius{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+
+}
+@media (max-width: 700px){
+    .p-tag1, .p-tag4{
+        text-align: left;
+    }
+}
+@media (max-width: 920px){
+    .p-tag4, .p-tag1{
+        font-size: 18px;
+    }
+    .p-tag{
+        font-size: 14px;
+    }
+    #mapRadius{
+        height: 70%;
+        width: 70%;
+    }
+}

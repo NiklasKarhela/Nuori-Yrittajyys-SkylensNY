@@ -1,0 +1,45 @@
+.story{
+    margin-top: 11em;
+}
+
+.pic-txt-con{
+    display: flex;
+    align-items: center;
+
+}
+.img-col img{
+    max-width: 100%;
+    margin-left: 1em;
+}
+.img-col{
+    flex-basis: 70%;
+}
+
+
+.margin-top{
+    margin-top: 1.5em;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    padding: 1em;
+}
+.img-container2{
+    height: fit-content;
+}
+
+@media (max-width: 800px){
+    .img-col img{
+        display: none;
+    }
+}
+@media (max-width: 700px){
+    .story{
+        margin-top: 5em;
+    }
+    .column {
+        width: 40%;
+        padding: 0.5em;
+    }
+}
